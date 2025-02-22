@@ -44,6 +44,7 @@ Building (Linux):
 ```bash
 # export local bin directory to path
 export MY_INSTALL_DIR=$HOME/.local
+export DESTDIR=$MY_INSTALL_DIR
 export PATH="$MY_INSTALL_DIR/bin:$PATH"
 
 # install build tools
